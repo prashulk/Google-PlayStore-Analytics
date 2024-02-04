@@ -3,13 +3,13 @@
 ### Purpose:
 The purpose of our project is to create a web application that leverages Google App Store data to deliver key insights on app performance, user engagement, and retention. This application will serve as a valuable tool for developers, providing them with detailed analytics to understand the drivers behind an app's popularity and success. It will also cater to consumers by offering an easy-to-navigate interface to discover and evaluate top-rated apps across various categories, based on user reviews and ratings. By integrating features for analyzing app trends and enabling user review submissions, the project aims to facilitate informed decision-making for both app creators and users, ultimately enhancing the app selection and development process.
 
-### Technical Description
-In our project, first we utilized a python script to remove bad quality data from the Kaggle source we used as input. The python script mainly removed ‘NA’ values and converting non integer to integer values (like removing ‘,’ in prices and app installs) and also removing duplicate values. We then employed MySQL for data normalization and cleansing. The process involved pre-normalization, normalization, and post-normalization stages to ensure the integrity and quality of the Google App Store data. This approach was essential for obtaining clean and well-structured app data and user review data. For Pre-normalization using the SQL queries we prepared the raw Google App Store data for normalization. This step was crucial for setting a clean baseline. Next, we then proceeded to structure the data effectively. This process ensured that the data adhered to database normalization principles, optimizing it for efficient querying and analysis. 
+### Technical Description -
+The python script mainly removed ‘NA’ values and converting non integer to integer values (like removing ‘,’ in prices and app installs) and also removing duplicate values. The process then involved pre-normalization, normalization, and post-normalization stages to ensure the integrity and quality of the Google App Store data. This approach was essential for obtaining clean and well-structured app data and user review data. For Pre-normalization using the SQL queries we prepared the raw Google App Store data for normalization. This step was crucial for setting a clean baseline. Next, we then proceeded to structure the data effectively. This process ensured that the data adhered to database normalization principles, optimizing it for efficient querying and analysis. 
 This finally resulted in 4 tables i.e. – apps_dim, app_ratings, app_categories_genres, app_reviews and app_price. 
 
 
 ### Data Model - 
-<img width="504" alt="image" src="https://github.com/prashulk/Google-PlayStore-Analytics/assets/67316162/a2468366-e566-4c21-b61a-a3945ab4b1da">
+<img width="490" alt="image" src="https://github.com/prashulk/Google-PlayStore-Analytics/assets/67316162/bf1250e6-9cf6-4e3f-b83e-f79bd1a638a1">
 
 
 ### User Functionalities -
