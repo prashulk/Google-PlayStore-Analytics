@@ -9,7 +9,7 @@ This finally resulted in 4 tables i.e. – apps_dim, app_ratings, app_categories
 
 
 ### Data Model - 
-<img width="490" alt="image" src="https://github.com/prashulk/Google-PlayStore-Analytics/assets/67316162/122d7df8-d60e-4870-811c-a8a7feaddb74">
+<img width="504" alt="image" src="https://github.com/prashulk/Google-PlayStore-Analytics/assets/67316162/a2468366-e566-4c21-b61a-a3945ab4b1da">
 
 
 ### User Functionalities -
